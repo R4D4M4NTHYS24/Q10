@@ -3,24 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/css/all.css" />
-    <link rel="stylesheet" href="css/webfonts/" />
+    <link rel="stylesheet" href="css/vendors/grid.css" />
+    <link rel="stylesheet" href="css/vendors/css/all.css" />
+    <link rel="stylesheet" href="css/vendors/webfonts/" />
+    <link rel="stylesheet" href="css/vendors/fonts.css" />
+    <link rel="stylesheet" href="css/vendors/fonts/" />
+
     <title>Document</title>
   </head>
   <body>
     <header>
+      <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span></a>
+      </div>
       <nav>
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Planes</a></li>
-          <li><a href="#">Clientes</a></li>
-          <li><a href="#">Empresa</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Iniciar sesion</a></li>
-          <li><a href="#" class="btn-free">Prueba gratuita</a></li>
+          <li>
+            <a href="#"><span class="icon-house"></span>Inicio</a>
+          </li>
+          <li>
+            <a href="#"><span class="icon-house"></span>Planes</a>
+          </li>
+          <li>
+            <a href="#"><span class="icon-house"></span>Clientes</a>
+          </li>
+          <li>
+            <a href="#"><span class="icon-house"></span>Empresa</a>
+          </li>
+          <li>
+            <a href="#"><span class="icon-house"></span>Contacto</a>
+          </li>
+          <li>
+            <a href="#"><span class="icon-house"></span>Iniciar sesion</a>
+          </li>
+          <li>
+            <a href="#" class="btn-free"
+              ><span class="icon-house"></span>Prueba gratuita</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="logo"><img src="img/Logo_Q10.png" alt="" /></div>
@@ -78,5 +104,7 @@
       </div>
     </section>
     <section class="section-features"></section>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
