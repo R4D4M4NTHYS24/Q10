@@ -3,104 +3,185 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link href="/vendors/css/css/all.css" rel="stylesheet" />
+    <link href="/vendors/css/webfonts/" rel="stylesheet" />
+    <link rel="stylesheet" href="vendors/css/animate.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/queries.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/vendors/grid.css" />
-    <link rel="stylesheet" href="css/vendors/css/all.css" />
-    <link rel="stylesheet" href="css/vendors/webfonts/" />
-    <link rel="stylesheet" href="css/vendors/fonts.css" />
-    <link rel="stylesheet" href="css/vendors/fonts/" />
 
-    <title>Q10 Sistema academico</title>
+    <title>Omnifood</title>
   </head>
   <body>
-    <header>
-      <div class="menu_bar">
-        <a href="#" class="bt-menu"><span class="icon-menu"></span></a>
-      </div>
+    <header class="js--header">
       <nav>
-        <ul>
-          <li>
-            <a href="#"><span class="icon-house"></span>Inicio</a>
-          </li>
-          <li>
-            <a href="#"><span class="icon-house"></span>Planes</a>
-          </li>
-          <li>
-            <a href="#"><span class="icon-house"></span>Clientes</a>
-          </li>
-          <li>
-            <a href="#"><span class="icon-house"></span>Empresa</a>
-          </li>
-          <li>
-            <a href="#"><span class="icon-house"></span>Contacto</a>
-          </li>
-          <li>
-            <a href="#"><span class="icon-house"></span>Iniciar sesion</a>
-          </li>
-          <li>
-            <a href="#" class="btn-free"
-              ><span class="icon-house"></span>Prueba gratuita</a
-            >
-          </li>
-        </ul>
+        <div class="row">
+          <img
+            src="/resources/css/img/Logo_Q10.png"
+            alt="Omnifood logo"
+            class="logo"
+          />
+
+          <img
+            src="/resources/css/img/Logo_Q10.png"
+            alt="Omnifood logo"
+            class="logo-black"
+          />
+          <ul class="main-nav js--main-nav">
+            <li><a href="#features">Inicio</a></li>
+            <li><a href="#works">Planes</a></li>
+            <li><a href="#cities">Clientes</a></li>
+            <li><a href="#plans">Empresa</a></li>
+            <li><a href="#plans">Contacto</a></li>
+            <li><a href="#plans">Iniciar Sesion</a></li>
+            <li>
+              <a class="btn btn-full js--scroll-to-plans" href="#"
+                >Prueba gratuita</a
+              >
+            </li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon">
+            <i class="fas fa-bars icon-big"></i
+          ></a>
+        </div>
       </nav>
-      <div class="logo"><img src="img/Logo_Q10.png" alt="" /></div>
+      <div class="hero-text-box">
+        <h1>
+          Software académico, administrativo y de educación virtual para
+          instituciones.
+        </h1>
+
+        <div class="row">
+          <h2>¡La transformación digital está a su alcance con Q10!</h2>
+        </div>
+
+        <div class="row js--wp-1">
+          <div class="col span-1-of-4 box">
+            <i class="fas fa-infinity icon-big"></i>
+            <h3>Empieza ahora</h3>
+
+            <p>Q10 es la plataforma academica mas utilizada en Colombia.</p>
+          </div>
+
+          <div class="col span-1-of-4 box">
+            <i class="fas fa-stopwatch icon-big"></i>
+            <h3>Chat de ventas</h3>
+            <p>
+              Comunicate con nosotros y descubre las ventajas de nuestro sistema
+              academico.
+            </p>
+          </div>
+
+          <div class="col span-1-of-4 box">
+            <i class="fas fa-carrot icon-big"></i>
+            <h3>WhatsApp</h3>
+            <p>
+              ¿No sabes como hacer tu registro de notas? escribenos y te
+              contamos!
+            </p>
+          </div>
+
+          <div class="col span-1-of-4 box">
+            <i class="fas fa-shopping-cart icon-big"></i>
+            <h3>Telefono</h3>
+            <p>Llamanos sera un gusto atenderte! (+57 4) 444 10 35</p>
+          </div>
+        </div>
+      </div>
     </header>
-    <section class="contenido wrapper">
-      <h1>
-        Software académico, administrativo y de educación virtual para
-        instituciones.
-      </h1>
 
-      <div class="plataform">
-        <img src="img/Plataforma_academica.jpg" alt="" />
-      </div>
-      <div class="row">
-        <h2>¡La transformación digital está a su alcance con Q10!</h2>
-      </div>
+    <section class="section-features" id="features"></section>
 
-      <div class="row">
-        <div class="col span-1-of-4">
-          <i class="fas fa-clock"></i>
-          <h3><a href="#"> Empieza ahora</a></h3>
-
-          <p>Q10 es la plataforma academica mas utilizada en Colombia.</p>
-        </div>
-
-        <div class="col span-1-of-4">
-          <i class="fas fa-headset"></i>
-          <h3><a href="#">Chat de ventas</a></h3>
-          <p>
-            Comunicate con nosotros y descubre las ventajas de nuestro sistema
-            academico.
-          </p>
-        </div>
-
-        <div class="col span-1-of-4">
-          <i class="fas fa-mobile-alt"></i>
-          <h3><a href="#">Whatsapp</a></h3>
-          <p>
-            ¿No sabes como hacer tu registro de notas? escribenos y te contamos!
-          </p>
-        </div>
-
-        <div class="col span-1-of-4">
-          <i class="fas fa-phone-square-alt"></i>
-          <h3><a href="#">Telefono</a></h3>
-          <p>
-            Llamanos sera un gusto atenderte! <br />
-            (+57 4) 444 10 35
-          </p>
-        </div>
-      </div>
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis
+        non felis sagittis tempus. Sed vulputate volutpat maximus. Nulla at
+        congue leo, vitae auctor orci. Integer porta ornare ligula, eu auctor
+        augue cursus pretium. Nulla a eros non libero pretium volutpat vel eu
+        libero. Nunc pretium fringilla maximus. Phasellus gravida porta urna,
+        nec porttitor orci congue vitae. Ut vel tincidunt mi. Praesent eu
+        imperdiet quam. Suspendisse ac iaculis erat, ut laoreet lorem. Nullam
+        lectus mauris, volutpat vel turpis nec, gravida consectetur est. Aliquam
+        porttitor, dolor vel condimentum dapibus, mi enim tincidunt augue, quis
+        lobortis tortor lacus quis neque. Maecenas varius nunc sit amet eros
+        luctus imperdiet. Pellentesque ultricies viverra purus a dictum. Nulla
+        consequat scelerisque augue id pretium. Suspendisse accumsan sapien
+        risus, ac tempus tellus sollicitudin eget. Etiam porttitor magna id
+        ipsum interdum, ac luctus turpis sagittis. Pellentesque non lobortis
+        turpis, ut dapibus turpis. Mauris sit amet nisl fermentum, faucibus
+        felis eu, ultricies ligula. Praesent sit amet lacus bibendum, iaculis
+        tellus non, vestibulum nulla. Donec ligula ex, scelerisque id massa
+        eget, efficitur molestie justo. Fusce non ipsum felis. Vestibulum augue
+        nunc, tincidunt eu risus sit amet, porttitor maximus leo. In hac
+        habitasse platea dictumst. Vivamus dapibus sodales metus tincidunt
+        maximus. Proin consequat mi congue tellus aliquet egestas. Quisque
+        tempor eros nunc, ut placerat ipsum suscipit at. Curabitur ut elit
+        scelerisque, pretium tellus ac, rhoncus dui. Mauris finibus eget purus
+        tincidunt bibendum. Pellentesque porttitor orci nunc, non sollicitudin
+        arcu bibendum quis. Mauris et lectus tortor. Donec enim purus, consequat
+        sit amet vehicula a, faucibus quis lorem. Donec at condimentum arcu.
+        Integer sed euismod libero. Donec vel odio in orci feugiat pulvinar id a
+        nisi. Duis tincidunt ante lectus, quis aliquam mi vestibulum eu. Fusce
+        ultrices, urna eget pharetra cursus, urna nibh dignissim enim, ut
+        rhoncus sapien nunc sit amet nibh. Fusce hendrerit nisi non massa
+        sodales, sit amet porta metus commodo. Curabitur non nisl eu urna
+        ultricies maximus at et est. Etiam ac vestibulum magna. Etiam id lectus
+        vitae mauris pellentesque imperdiet ut a orci. Integer efficitur enim ut
+        orci tincidunt, non pharetra nunc imperdiet. Vestibulum vestibulum enim
+        tellus, vitae semper leo dapibus et. Nunc dapibus elit quis tempus
+        imperdiet. Sed tempor nibh sit amet enim euismod gravida. In lectus
+        erat, ornare sed volutpat blandit, condimentum quis massa. Morbi nec
+        tortor nec odio pretium convallis non sed diam. Suspendisse et risus
+        quis massa molestie malesuada eget laoreet sem. Curabitur ac tellus vel
+        diam aliquet porta. Nam egestas risus nec pulvinar pretium. Fusce id
+        ornare lectus. Integer suscipit nisl in ligula finibus fringilla eget ut
+        ex. Aliquam augue lacus, lacinia gravida rhoncus sit amet, eleifend
+        euismod augue. Sed dictum dui ex, in porta felis rhoncus et. Proin
+        interdum nulla a ligula tempus laoreet. Curabitur pretium sollicitudin
+        magna, id tristique leo aliquam sed. Sed dignissim arcu non leo vehicula
+        suscipit. Vivamus nunc urna, sollicitudin ut enim vel, finibus porta
+        ante. Duis vel urna blandit, pellentesque purus sit amet, dapibus nunc.
+        Curabitur tincidunt erat magna. Sed tincidunt metus mattis ex cursus
+        egestas. Maecenas iaculis, nulla et efficitur ornare, diam sem
+        sollicitudin diam, eget dignissim quam nibh vitae sapien. Nullam
+        elementum ipsum vitae nibh maximus finibus. Proin pulvinar est eget
+        metus fermentum sollicitudin. Quisque mi turpis, vestibulum a est nec,
+        dapibus luctus urna. Mauris sit amet augue pharetra, tempus elit nec,
+        placerat sapien. Suspendisse vel sem maximus, tristique lacus nec,
+        molestie nisi. Vestibulum massa erat, finibus dictum tempor nec, ornare
+        quis eros. Nullam auctor risus in sollicitudin sollicitudin. Aenean sit
+        amet velit in felis ultrices pulvinar. Nullam quis urna at ligula
+        volutpat ultricies quis eu eros. Fusce dolor tortor, auctor vel sapien
+        a, pretium vestibulum felis. Donec imperdiet malesuada ipsum, vitae
+        bibendum nisi commodo viverra. Mauris placerat posuere urna, in sodales
+        ex mattis ac. Quisque pellentesque odio leo, quis vehicula arcu
+        scelerisque non. Curabitur tristique tempor efficitur. Vestibulum non
+        tempus massa. Aenean id tortor vitae libero hendrerit pharetra. Sed non
+        efficitur sem, sed ornare ligula. Nunc blandit sodales lectus nec
+        suscipit. Duis vitae dui in lectus iaculis porta vitae eu nisi.
+        Suspendisse potenti. Donec nibh est, porta a dignissim ut, commodo in
+        tellus. Donec velit dui, efficitur vel placerat congue, accumsan eget
+        nibh. Class aptent taciti sociosqu ad litora torquent per conubia
+        nostra, per inceptos himenaeos. Pellentesque elementum blandit nunc at
+        molestie. Donec aliquet faucibus arcu et tincidunt. Morbi porta mauris
+        quis arcu dapibus, non ullamcorper quam rutrum. Proin quam leo, iaculis
+        nec nibh a, blandit laoreet augue. Curabitur sit amet ex id nisi
+        condimentum molestie. Maecenas pulvinar aliquam dapibus. Mauris
+        scelerisque egestas metus. Etiam at pharetra metus, dapibus rutrum
+        lorem. Curabitur malesuada sem velit, a molestie ex gravida auctor.
+        Donec bibendum quis purus ut interdum.
+      </p>
     </section>
-    <section class="section-features"></section>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="/resources/js/script.js"></script>
   </body>
 </html>
