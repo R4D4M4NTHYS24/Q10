@@ -74,8 +74,8 @@ $(document).ready(function () {
       icon.addClass("fa-times");
       icon.removeClass("fa-bars");
     } else {
-      icon.addClass("fa-bars");
       icon.removeClass("fa-times");
+      icon.addClass("fa-bars");
     }
   });
 });
