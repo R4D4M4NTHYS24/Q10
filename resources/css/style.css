@@ -73,11 +73,12 @@ h2 {
   font-size: 100%;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   letter-spacing: 1px;
 }
 
 h3 {
+  text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
   font-size: 80%;
@@ -104,6 +105,7 @@ h2::after {
 /* ----------- Icons -----------*/
 
 .icon-big {
+  text-align: center;
   font-size: 200%;
   display: block;
   color: #e67e22;
@@ -176,7 +178,7 @@ header {
 .hero-text-box {
   position: absolute;
   width: 1140px;
-  top: 45%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -266,4 +268,52 @@ header {
 
 .sticky .logo-black {
   display: block;
+}
+
+/*---------------------------------------------------*/
+/* Second Menu */
+/*---------------------------------------------------*/
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.container-flex li {
+  border: solid 2px #e67e22;
+  background-color: transparent;
+  transition: border-bottom 0.2s;
+  list-style: none;
+  flex: 1;
+}
+
+.container-flex li a:link,
+.container-flex li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 70%;
+}
+
+.container-flex li a:hover,
+.container-flex li a:active {
+  background: rgba(0, 0, 0, 0.8);
+}
+/*
+.container-flex li a {
+  padding: 30px;
+}*/
+/*---------------------------------------------------*/
+/* Icons flex */
+/*---------------------------------------------------*/
+
+.description-nav p {
+  font-size: 90%;
+  line-height: 130%;
+}
+
+.container-flex li:hover,
+.container-flex li:active {
+  background-color: rgba(0, 0, 0, 0.8);
 }
