@@ -61,16 +61,16 @@ h3 {
 
 h1 {
   color: #fff;
-  font-size: 150%;
+  font-size: 170%;
   word-spacing: 4px;
   letter-spacing: 1px;
   text-align: center;
 }
 
 h2 {
-  margin-top: 80px;
+  margin-top: 40px;
   color: #fff;
-  font-size: 100%;
+  font-size: 120%;
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 100px;
@@ -81,7 +81,7 @@ h3 {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
-  font-size: 80%;
+  font-size: 100%;
   height: auto;
 }
 
@@ -281,7 +281,7 @@ header {
 
 .container-flex li {
   border: solid 2px #e67e22;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   transition: border-bottom 0.2s;
   list-style: none;
   flex: 1;
@@ -298,7 +298,7 @@ header {
 
 .container-flex li a:hover,
 .container-flex li a:active {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
 }
 /*
 .container-flex li a {
@@ -308,9 +308,10 @@ header {
 /* Icons flex */
 /*---------------------------------------------------*/
 
-.description-nav p {
+.description-nav {
   font-size: 90%;
   line-height: 130%;
+  color: #fff;
 }
 
 .container-flex li:hover,
