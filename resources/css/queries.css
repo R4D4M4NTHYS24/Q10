@@ -58,6 +58,10 @@
     margin: 0 0 4% 0;
   }
 
+  .description-nav {
+    display: none;
+  }
+
   .main-nav {
     display: none;
   }
@@ -109,15 +113,6 @@
     font-size: 150%;
   }
 
-  .long-copy {
-    width: 100%;
-    margin-left: 0%;
-  }
-
-  .app-screen {
-    width: 40%;
-  }
-
   .steps-box:first-child {
     text-align: center;
   }
@@ -136,6 +131,11 @@
 
   .works-step:last-of-type {
     margin-bottom: 20px;
+  }
+
+  .btn-full:hover,
+  .btn-full:active {
+    box-shadow: none;
   }
 }
 
@@ -209,11 +209,6 @@
     font-size: 150%;
   }
 
-  .long-copy {
-    width: 100%;
-    margin-left: 0%;
-  }
-
   .app-screen {
     width: 40%;
   }
@@ -237,6 +232,11 @@
   .works-step:last-of-type {
     margin-bottom: 20px;
   }
+
+  .btn-full:hover,
+  .btn-full:active {
+    box-shadow: none;
+  }
 }
 
 /* Small phones: from 0 to 480px */
@@ -245,7 +245,8 @@
     padding: 25px 0;
   }
 
-  .contact-form {
-    width: 100%;
+  .btn-full:hover,
+  .btn-full:active {
+    box-shadow: none;
   }
 }

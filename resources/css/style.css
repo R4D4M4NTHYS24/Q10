@@ -16,7 +16,7 @@ html,
 body {
   background-color: #fff;
   color: #555;
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -61,14 +61,14 @@ h3 {
 
 h1 {
   color: #fff;
-  font-size: 170%;
+  font-size: 150%;
   word-spacing: 4px;
   letter-spacing: 1px;
   text-align: center;
 }
 
 h2 {
-  margin-top: 40px;
+  margin-top: 20px;
   color: #fff;
   font-size: 120%;
   word-spacing: 2px;
@@ -159,7 +159,8 @@ input[type="submit"]:active {
 
 .btn-full:hover,
 .btn-full:active {
-  border: 1px solid #cf6d17;
+  border-radius: solid 2px;
+  box-shadow: inset 4px 4px 15px 0px #0000007a;
 }
 
 /*---------------------------------------------------*/
@@ -178,7 +179,7 @@ header {
 .hero-text-box {
   position: absolute;
   width: 1140px;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -274,12 +275,17 @@ header {
 /* Second Menu */
 /*---------------------------------------------------*/
 
+.container {
+  margin-top: 40px;
+}
+
 .container-flex {
   display: flex;
   justify-content: center;
 }
 
 .container-flex li {
+  padding: 10px;
   border: solid 2px #e67e22;
   background-color: rgba(0, 0, 0, 0.5);
   transition: border-bottom 0.2s;
@@ -309,8 +315,10 @@ header {
 /*---------------------------------------------------*/
 
 .description-nav {
-  font-size: 90%;
-  line-height: 130%;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 110%;
+  line-height: 150%;
   color: #fff;
 }
 
